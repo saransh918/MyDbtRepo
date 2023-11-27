@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: my_sources
+    database: pc_dbt_db
+    schema: pc_dbt_schema
+    tables:
+      - name: customer
+      - name: orders

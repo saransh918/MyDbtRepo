@@ -1,0 +1,16 @@
+version 2:
+
+models:
+  - name: get_cust_info
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+  - name: get_orders_info
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+          
